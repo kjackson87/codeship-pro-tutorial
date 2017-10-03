@@ -5,7 +5,7 @@ def log(message)
   puts "\e[34m#{message}\e[0m"
 end
 
-log "Checking Redis server..."
+log "Checking Redis server...."
 begin
   redis = Redis.new()
   redis.ping
